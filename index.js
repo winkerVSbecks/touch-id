@@ -1,6 +1,7 @@
 window.onload = onLoad;
 
-const EASING = 'cubic-bezier(0.86, 0, 0.07, 1)';
+const easeInOutQuint = 'cubic-bezier(0.86, 0, 0.07, 1)';
+const easeInQuart = 'cubic-bezier(0.895, 0.03, 0.685, 0.22)';
 const timing = {
   duration: 4000,
   iterations: Infinity,
@@ -22,38 +23,38 @@ function generateLoopKeyframes(idx, Dashoffset) {
     strokeDashoffset: 0,
     opacity: 0,
     offset: 0,
-    easing: EASING,
+    easing: easeInOutQuint
   }, {
     strokeDashoffset: 0,
     opacity: 0,
     offset: 0.01 + i,
-    easing: EASING,
+    easing: easeInOutQuint
   }, {
     opacity: 1,
     offset: 0.02 + i,
-    easing: EASING,
+    easing: easeInOutQuint
   }, {
     strokeDashoffset: Dashoffset,
     offset: 0.25 + i,
-    easing: EASING,
+    easing: easeInOutQuint
   }, {
     strokeDashoffset: Dashoffset,
     opacity: 1,
     offset: 0.5,
-    easing: EASING,
+    easing: easeInQuart
   }, {
     opacity: 1,
     offset: 0.74,
-    easing: EASING,
+    easing: easeInQuart,
   }, {
     strokeDashoffset: 0,
     opacity: 0,
     offset: 0.75 + i,
-    easing: EASING,
+    easing: easeInQuart,
   }, {
     strokeDashoffset: 0,
     opacity: 0,
     offset: 1,
-    easing: EASING,
+    easing: easeInQuart,
   }];
 }
