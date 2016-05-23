@@ -46,7 +46,7 @@ function onLoad() {
   const flash = document.querySelector('#flash');
   const flashAnim = new KeyframeEffect(flash, flashKeyframes, {
     duration: 150,
-    delay: 6350,
+    delay: 6500,
     iterations: 3,
   });
 
