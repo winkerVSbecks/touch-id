@@ -1,9 +1,13 @@
 body {
   align-items: center;
-  background-color: #8cfddf;
   display: flex;
   height: 100vh;
   margin: 0;
 }
 
 svg { margin: 0 auto; }
+
+#flash {
+  fill: #fff;
+  mix-blend-mode: overlay;
+}
