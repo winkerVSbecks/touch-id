@@ -11,15 +11,50 @@ svg {
   stroke: #fc2876;
 }
 
-#loop0 { stroke-dasharray: 0 150 150; }
-#loop1 { stroke-dasharray: 0 330 54 20 0; }
-#loop2 { stroke-dasharray: 0 370 86 20 122 20 86 20 86; }
-#loop3 { stroke-dasharray: 0 410 190 20 300; }
-#loop4 { stroke-dasharray: 0 445 40 20 330 20 0; }
-#loop5 { stroke-dasharray: 0 470 160 20 90 20 100; }
-#loop6 { stroke-dasharray: 0 485 80 20 300 20 0; }
-#loop7 { stroke-dasharray: 0 490 220 20 400 0; }
-#loop8 { stroke-dasharray: 0 425 110 20 180 20 0; }
+#loop0 {
+  opacity: 0;
+  stroke-dasharray: 0 150 150;
+}
+
+#loop1 {
+  opacity: 0;
+  stroke-dasharray: 0 330 54 20 0;
+}
+
+#loop2 {
+  opacity: 0;
+  stroke-dasharray: 0 370 86 20 122 20 86 20 86;
+}
+
+#loop3 {
+  opacity: 0;
+  stroke-dasharray: 0 410 190 20 300;
+}
+
+#loop4 {
+  opacity: 0;
+  stroke-dasharray: 0 445 40 20 330 20 0;
+}
+
+#loop5 {
+  opacity: 0;
+  stroke-dasharray: 0 470 160 20 90 20 100;
+}
+
+#loop6 {
+  opacity: 0;
+  stroke-dasharray: 0 485 80 20 300 20 0;
+}
+
+#loop7 {
+  opacity: 0;
+  stroke-dasharray: 0 490 220 20 400 0;
+}
+
+#loop8 {
+  opacity: 0;
+  stroke-dasharray: 0 425 110 20 180 20 0;
+}
 
 /*
 #loop0 {
